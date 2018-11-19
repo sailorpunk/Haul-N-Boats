@@ -1,0 +1,105 @@
+/* * {
+  font-family: 'Lora', sans-serif;
+} */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+p {
+  width: 400px;
+  min-width: 250px;
+  margin-top: 40px;
+  margin: auto;
+  font-family: 'Lora', sans-serif;
+}
+
+.container {
+  margin: 20px 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  display: inline;
+  position: center;
+  font-family: 'Open Sans', sans-serif;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  background-color:  #0f3a4f;
+  padding: 4px 8px;
+}
+a:visited {
+  color: white;
+}
+
+a:hover {
+  display: inline;
+  position: center;
+  background-color:  #3877ab;
+}
+
+.content {
+  background-image: url("https://cdn.cnn.com/cnnnext/dam/assets/171017114334-volvo-ocean-race-sunset-full-169.jpg");
+  background-size: cover;
+  max-width: 800px;
+  min-width: 300px;
+  width: 900px;
+  height: 500px;
+  margin-top: 20px;
+  margin: auto;
+  padding: 10px;
+  color: white;
+  radius: 15px;
+  opacity: 1;
+  color: #0f3a4f;
+  text-shadow: 0px 0px 3px #b34146;
+  box-shadow: 0px 0px 8px grey;
+
+}
+
+img {
+  width: 400px;
+  border-color: black;
+  border-width: 5px;
+  border-radius: 5px;
+  margin: 30px;
+
+}
+
+.form {
+  align: center;
+  background-color: rgba(0, 0, 200, .2);
+}
+
+nav {
+text-align: center;
+}
+
+.center {
+  text-align: center;
+  align: center;
+}
+
+.snug {
+  display: inline;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  radius: 15px;
+  position: center;
+}
